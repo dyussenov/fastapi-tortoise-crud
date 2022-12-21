@@ -31,5 +31,5 @@ class Items(Model):
     description = fields.TextField()
 
 
-#AddCustomer = pydantic_model_creator(Customers,name="AddCustomer", exclude_readonly=True)
-#Customer = pydantic_model_creator(Customers,name="Customer",)
+AddCustomer = pydantic_model_creator(Customers,name="AddCustomer", exclude_readonly=True)
+Customer = pydantic_model_creator(Customers,name="Customer",)
